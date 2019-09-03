@@ -34,7 +34,6 @@ button:focus {
         padding-right: 0;
     }
 
-
 /* Background */
 body:before {
     border: 2px solid rgba(0, 0, 0, 0.05);
@@ -130,6 +129,56 @@ header div h4 {
     text-transform: uppercase;
 }
 
+/* Skills Section */
+/*.skills {
+    background-image: linear-gradient(
+        to bottom right,
+        rgba(60,158,255,.4),
+        rgba(60,158,255,.25)
+    );
+}*/
+    @media (min-width: 992px) {
+        .block-s {
+            height: 30rem;
+        }
+    }
+.block {
+    background-color: #fff;
+    background-image: linear-gradient(
+        to bottom right,
+        rgb(255,255,255),
+        rgba(230,230,230,.2)
+    );
+    border-radius: 4px;
+    box-shadow: 0.4rem 0.4rem 0.4rem rgba(0,0,0,.1);
+    padding: 1.5em !important;
+    text-align: center;
+    transition: all .2s ease-in-out;
+}
+    .block:hover {
+        transform: scale(1.05);
+    }
+.block div svg {
+    font-size: 2.5em;
+    margin: .5em .25em 1em .25em;
+}
+
+.fa-html5, .fa-git-alt, .fa-fire {
+    color: rgb(227,79,38);
+}
+.fa-css3-alt, .fa-database, .fa-react {
+    color: rgb(59,137,194);
+}
+.fa-js {
+    color: rgb(247,223,30);
+}
+.fa-npm, .fa-java {
+    color: rgb(205,63,62);
+}
+.fa-terminal {
+    color: rgb(140,140,140);
+}
+
 /* Projects Section */
 .heading-section span {
     letter-spacing: 5px;
@@ -141,11 +190,11 @@ header div h4 {
     text-transform: uppercase;
 }
 
-
 .block-p .image {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
+    box-shadow: 0.4rem 0.4rem 0.4rem rgba(0, 0, 0, 0.1);
     padding: 10% 7%;
     width: 100%;
 }
@@ -190,7 +239,8 @@ header div h4 {
     color: rgb(60,158,255);
     line-height: 20px;
 }
-.block-p .text div a img {
+.block-p .text div a .fa-github {
+    color: rgb(60,158,255);
     height: 20px;
     vertical-align: top;
     width: auto;
@@ -217,15 +267,7 @@ img {
     width: 100%;
 }
 
-.box {
-    background-color: #fff;
-    border-radius: 10px;
-    box-shadow: 0.4rem 0.4rem 0.4rem rgba(46,41,78,.15);
 
-    margin: 2em 1em;
-    padding: 1em;
-    text-align: center;
-}
 
 
 /* About */
@@ -234,40 +276,6 @@ img {
     height: auto;
     margin: 2em auto;
 }
-
-
-/* Skills */
-#skills {
-    margin-bottom: 0 !important;
-    padding-bottom: 2em !important;
-
-    background: linear-gradient(to bottom, #548bac , #a7cfe8);
-    color: #fff;
-}
-.skills-item {
-    display: flex;
-    flex-direction: column;
-    margin: 1.5em;
-}
-.skills-title {
-    margin: 0;
-
-    font-size: 1.2em;
-    font-weight: 400;
-}
-.skills-text {
-    font-size: 1em;
-    font-weight: 300;
-}
-ol {
-    padding-left: 0 !important;
-}
-
-.skills-img {
-    width: 1.5em;
-    height: auto;
-}
-
 
 /* Contact */
 .fa-github, .fa-codepen, .fa-free-code-camp {
@@ -292,9 +300,6 @@ footer {
 
 
 @media screen and (min-width: 700px) {
-    section {
-        padding: 2em 3.5em;
-    }
 
     .section-content {
         display: flex;
@@ -312,9 +317,6 @@ footer {
 }
 
 @media screen and (min-width: 992px) {
-    section {
-        padding: 4em 7em;
-    }
 
     .section-header-xl {
         display: flex;

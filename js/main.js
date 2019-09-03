@@ -27,5 +27,5 @@ $(document).ready(function ($) {
             $(this.element).removeClass('fadeInUp');
         }
 
-    }, { offset: '75%' });
+    }, { offset: '80%' });
 });
