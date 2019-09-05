@@ -1,17 +1,17 @@
 html {
+    -webkit-box-sizing: border-box;
     box-sizing: border-box;
 }
 
 *,
 *:before,
 *:after {
-    -webkit-box-sizing: border-box;
     box-sizing: inherit;
     font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
     list-style: none;
     margin: 0;
     padding: 0;
-    text-decoration: none;
 }
 
 a:hover,
@@ -100,7 +100,6 @@ body:after {
 /* Header */
 header {
     height: 100vh;
-    padding: 1em;
 }
 header div {
     align-items: center;
@@ -114,8 +113,6 @@ header div h1 {
     font-size: 2.5em;
     font-weight: 700;
     letter-spacing: 10px;
-    line-height: 1.2;
-    margin: 0;
     text-align: center;
     text-transform: uppercase;
 }
@@ -124,19 +121,52 @@ header div h4 {
     font-size: 1.25em;
     font-weight: 400;
     letter-spacing: 4px;
-    line-height: 1.5;
+    margin: 0;
     text-align: center;
     text-transform: uppercase;
 }
 
+/* About Section */
+.about-section .author-img {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 300px;
+}
+    @media (max-width: 767.98px) {
+        .about-section .author-img {
+            display: block;
+            margin: 0 1.5em;
+        }
+    }
+    @media (min-width: 768px) {
+        .about-section .author-img {
+            position: -webkit-sticky;
+            position: sticky;
+            top: 15%;
+        }
+    }
+.about-section .header h4 {
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+.about-section .objective h4 {
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-align: center;
+}
+.about-section .contact h4 {
+    color: rgb(60,158,255);
+    font-size: 1.25em;
+    letter-spacing: 1px;
+}
+    @media (min-width: 768px) {
+        .about-section .contact h4 {
+            font-size: 1.5em;
+        }
+    }
+
 /* Skills Section */
-/*.skills {
-    background-image: linear-gradient(
-        to bottom right,
-        rgba(60,158,255,.4),
-        rgba(60,158,255,.25)
-    );
-}*/
     @media (min-width: 992px) {
         .block-s {
             height: 30rem;
@@ -162,22 +192,25 @@ header div h4 {
     font-size: 2.5em;
     margin: .5em .25em 1em .25em;
 }
-
-.fa-html5, .fa-git-alt, .fa-fire {
-    color: rgb(227,79,38);
+.block p {
+    line-height: 1.5;
 }
-.fa-css3-alt, .fa-database, .fa-react {
-    color: rgb(59,137,194);
-}
-.fa-js {
-    color: rgb(247,223,30);
-}
-.fa-npm, .fa-java {
-    color: rgb(205,63,62);
-}
-.fa-terminal {
-    color: rgb(140,140,140);
-}
+    /* Icons */
+    .fa-html5, .fa-git-alt, .fa-fire {
+        color: rgb(227,79,38);
+    }
+    .fa-css3-alt, .fa-database, .fa-react {
+        color: rgb(59,137,194);
+    }
+    .fa-js {
+        color: rgb(247,223,30);
+    }
+    .fa-npm, .fa-java {
+        color: rgb(205,63,62);
+    }
+    .fa-terminal {
+        color: rgb(140,140,140);
+    }
 
 /* Projects Section */
 .heading-section span {
@@ -258,25 +291,6 @@ header div h4 {
 
 
 /* */
-.section-header {
-    padding: 1em;
-    text-align: center;
-}
-
-img {
-    width: 100%;
-}
-
-
-
-
-/* About */
-#about-img {
-    max-width: 80vw;
-    height: auto;
-    margin: 2em auto;
-}
-
 /* Contact */
 .fa-github, .fa-codepen, .fa-free-code-camp {
     margin: 0 0.25em;
