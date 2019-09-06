@@ -19,7 +19,13 @@ a:active,
 a:focus,
 button:hover,
 button:active,
-button:focus {
+button:focus,
+input:hover,
+input:active,
+input:focus,
+textarea:hover,
+textarea:active,
+textarea:focus {
     outline: 0;
     text-decoration: none;
 }
@@ -126,6 +132,17 @@ header div h4 {
     text-transform: uppercase;
 }
 
+/* Section Header*/
+.heading-section span {
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+.heading-section h2 {
+    font-weight: 700;
+    font-size: 2.25em;
+    text-transform: uppercase;
+}
+
 /* About Section */
 .about-section .author-img {
     background-size: contain;
@@ -173,7 +190,6 @@ header div h4 {
         }
     }
 .block {
-    background-color: #fff;
     background-image: linear-gradient(
         to bottom right,
         rgb(255,255,255),
@@ -213,16 +229,6 @@ header div h4 {
     }
 
 /* Projects Section */
-.heading-section span {
-    letter-spacing: 5px;
-    text-transform: uppercase;
-}
-.heading-section h2 {
-    font-weight: 700;
-    font-size: 2.25em;
-    text-transform: uppercase;
-}
-
 .block-p .image {
     background-position: center center;
     background-repeat: no-repeat;
@@ -265,9 +271,9 @@ header div h4 {
 .block-p .text .heading a {
     color: #000;
 }
-.block-p .text .heading a:hover {
-    color: rgb(60,158,255);
-}
+    .block-p .text .heading a:hover {
+        color: rgb(60,158,255);
+    }
 .block-p .text div a {
     color: rgb(60,158,255);
     line-height: 20px;
@@ -282,17 +288,30 @@ header div h4 {
     margin-bottom: 0;
 }
 
-
-
-/* Contact */
+/* Contact Section */
+.contact-details h6 {
+    color: rgb(140,140,140);
+    font-weight: 700;
+    letter-spacing: .1em;
+    padding-bottom: 1em;
+    position: relative;
+}
+.contact-details h6::before {
+    background: rgb(140,140,140);
+    border-radius: 5px;
+    bottom: 0;
+    content: "";
+    height: 3px;
+    left: 42.5%;
+    position: absolute;
+    width: 15%;
+}
 .fa-github, .fa-codepen, .fa-free-code-camp {
-    margin: 0 0.25em;
-
-    font-size: 1.5em;
     color: #000;
     cursor: pointer;
+    font-size: 1.5em;
+    margin: 0 0.25em;
 }
-
 
 /* Footer */
 footer {
