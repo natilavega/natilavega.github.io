@@ -91,7 +91,7 @@ body:after {
     height: 100%;
     z-index: 99;
     max-width: 100%;
-    background-color: #000;
+    background-color: rgba(0,0,0,.9);
     -webkit-transition: width .6s ease;
     -o-transition: width .6s ease;
     transition: width .6s ease;
@@ -284,13 +284,6 @@ header div h4 {
 
 
 
-
-
-
-
-
-
-/* */
 /* Contact */
 .fa-github, .fa-codepen, .fa-free-code-camp {
     margin: 0 0.25em;
@@ -303,42 +296,12 @@ header div h4 {
 
 /* Footer */
 footer {
-    padding: 1em;
-    background-color: #1e272e;
-
+    background-color: rgb(0,0,0,.9);
     color: #fff;
     font-size: 0.75em;
     font-weight: 300;
     text-align: center;
 }
-
-
-@media screen and (min-width: 700px) {
-
-    .section-content {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-    }
-
-    #about-img {
-        max-width: 60%;
-    }
-
-    .skills-item {
-        width: 20%;
-    }
-}
-
-@media screen and (min-width: 992px) {
-
-    .section-header-xl {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-    }
-
-    #about-img {
-        max-width: 50%;
-    }
+footer .fa-star {
+    color: rgb(248,210,72);
 }
