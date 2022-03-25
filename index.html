@@ -1,229 +1,272 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <title>Natalia Lavega</title>
+  <title>Natalia Lavega</title>
+  <link rel="shortcut icon" type="image/png" href="assets/icons/favicon.png"/>
 
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/fontawesome.min.css">
-    <link rel="stylesheet" href="css/animate.css">
-    <link rel="stylesheet" href="css/style.css">
-
+  <link
+    href="https://fonts.googleapis.com/css?family=Inter:400,600&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
-    <!-- Progress Bar -->
-    <div class="progressContainer">
-        <div class="progressBar"></div>
-    </div>
+  <!-- Progress Bar -->
+  <div class="progressContainer">
+      <div class="progressBar"></div>
+  </div>
 
-    <!-- Header -->
-    <header class="p-3">
-        <div>
-            <h4>Hola! Soy</h4>
-            <h1 class="my-3">Natalia Lavega</h1>
-            <h4>Desarrolladora Front-End</h4>
-        </div>
+  <!-- Header -->
+    <header>
+      <div class="header-image_container">
+        <img src="assets/images/profile.jpg" alt="Natalia Lavega" class="header-image">
+      </div>
+      <h1 class="header-title">Natalia Lavega</h1>
+      <Content class="header-subtitle">
+        Frontend Developer | React <br />
+        Content Creator
+      </h3>
+      <ul class="header-links_container">
+        <li class="header-link"><a href="https://github.com/natilavega" target="_blank">
+          <i class="feather-20" data-feather="github"></i>
+        </a></li>
+        <li class="header-link"><a href="https://www.linkedin.com/in/natilavega/" target="_blank">
+          <i class="feather-20" data-feather="linkedin"></i>
+        </a></li>
+        <li class="header-link"><a href="https://www.instagram.com/nati.ui/" target="_blank">
+          <i class="feather-20" data-feather="instagram"></i>
+        </a></li>
+        <li class="header-link header-link-email">
+          <i class="feather-20 email-icon" data-feather="mail"></i>
+          <div class="email-address">nati.lavega@gmail.com</div>
+        </li>
+      </ul>
     </header>
 
-    <!-- About Section -->
-    <section class="about-section my-5 py-5">
-        <div class="container mt-5">
-            <div class="row d-flex my-5">
-                <div class="offset-md-1 col-md-4 my-5 author-img" style="background-image: url(img/about-author.jpg);"></div>
-
-                <div class="col-md-7 content-animate">
-                    <div class="p-4 px-md-5">
-                        <h3>Hola! Soy Natalia</h3>
-                        <h5>desarrolladora front end de Buenos Aires, ARG.</h5>
-                    </div>
-                    <div class="p-4 px-md-5">
-                        <p>Comencé mi carrera en el mundo del arte donde aprendí la importancia de la creatividad, la innovación y el diseño para
-                        impulsar un proyecto. Luego de graduarme como Curadora en Artes reorienté mi carrera profesional hacia la programación.
-                        Desde entonces aprendí las herramientas de desarrollo de software más innovadoras para la creación de sitios web.
-                        Actualmente estoy cursando la Ingeniería en Sistemas de Información en UTN para perfeccionar mis conocimientos y
-                        llevarlos al siguiente nivel.</p>
-                        <p>La pasión por aprender cosas nuevas y resolver problemas sumado a mis diversos conocimientos y habilidades me dan una
-                        ventaja única al momento de crear experiencias memorables para los usuarios.</p>
-                    </div>
-                    <div class="p-4 px-md-5">
-                        <h5>Mi objetivo es marcar la diferencia con una solución creativa.</h5>
-                    </div>
-                    <div class="contact p-4 p-md-5">
-                        <h6>Contacto:</h6>
-                        <h4 class="mb-3">nati.lavega@gmail.com</h4>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    
-    <!-- Skills Section -->
-    <section class="my-5 py-5">
-        <div class="container mt-5">
-            <div class="row justify-content-center mb-5 pb-3">
-                <div class="col-md-7 text-center heading-section content-animate">
-                    <span>Grandes</span>
-                    <h2>Habilidades</h2>
-                    <span>para la web</span>
-                </div>
-            </div>
-            <div class="row justify-content-center block-s">
-        
-                <div class="block col-md-5 my-3 mx-3 col-lg align-self-lg-start content-animate">
-                    <div>
-                        <i class="fab fa-html5"></i>
-                        <i class="fab fa-css3-alt"></i>
-                        <i class="fab fa-js"></i>
-                        <i class="fab fa-react"></i>
-                    </div>
-                    <h6>HTML5, CSS3, Bootstrap, JavaScript, jQuery, ReactJS, Angular</h6>
-                    <p>Gran dominio de las herramientas indispensables para el desarrollo web: HTML5, CSS3 y JS. Soy capaz de realizar la
-                    estructura de la página con grillas o flexbox de CSS y con sistemas de clases como Bootstrap. Me desempeño con comodidad
-                    utilizando frameworks más complejos como ReactJS y Angular.</p>
-                </div>
-
-                <div class="block col-md-5 my-3 mx-3 col-lg align-self-lg-center content-animate">
-                    <div>
-                        <i class="fab fa-git-alt"></i>
-                        <i class="fab fa-npm"></i>
-                        <i class="fas fa-terminal"></i>
-                    </div>
-                    <h6>GIT, GitHub, NPM, Terminal del sistema</h6>
-                    <p>En mis trabajos, utilizo Git Bash como terminal del sistema, NPM para instalar todas las dependencias necesarias, Git
-                    para controlar las sucesivas versiones y las ramificaciones de cada proyecto, y GitHub para compartir mi código con la
-                    comunidad y recibir feedback para continuar mejorando.</p>
-                </div>
-
-                <div class="block col-md-5 my-3 mx-3 col-lg align-self-lg-end content-animate">
-                    <div>
-                        <i class="fab fa-java"></i>
-                        <i class="fas fa-database"></i>
-                        <i class="fas fa-fire"></i>
-                    </div>
-                    <h6>JAVA, Bases de datos, Firebase</h6>
-                    <p>Tengo conocimientos básicos de POO y programación estructurada que me permiten trabajar con ambos paradigmas. Soy capaz
-                    de crear, modificar y consultar bases de datos relacionales y no relacionales. Utilizo las funcionalidades de Firebase
-                    para autenticación de cuentas y almacenamiento en la nube.</p>
-                </div>
-            </div>
-        </div>
+    <!-- About -->
+    <section class="about">
+      <h2 class="section-title">
+        About.
+      </h2>
+      <div class="section-content">
+        <p>
+          Hi! I'm Natalia, a React developer from Buenos Aires, Argentina.
+        </p>
+        <p>
+          I have a degree in arts. In this field, I started experimenting with multimedia platforms. I created my first websites to promote exhibitions and cultural events.
+        </p>
+        <p>
+          Later, I focused on frontend development and taught myself the latest technologies in the sector.
+        </p>
+        <p>
+          Currently, I specialize in React development. And I'm a content creator working in the intersection between UI design and web development.
+        </p>
+      </div>
     </section>
 
-    <!-- Projects Section -->
-    <section class="my-5 py-5">
-        <div class="container mt-5">
-            <div class="row justify-content-center mb-5 pb-3">
-                <div class="col-md-7 text-center heading-section content-animate">
-                    <span>Algunos de mis</span>
-                    <h2>Proyectos</h2>
-                </div>
-            </div>
-            <div class="row no-gutters">
-
-                <div class="block-p my-5 d-md-flex content-animate">
-                    <a href="https://reactjs-todolist-webapp.herokuapp.com/" target="_blank" class="image d-flex justify-content-center align-items-center rounded"
-                        style="background-image: url('img/work-4.jpg'); background-position: center;"></a>
-                    <div class="text">
-                        <h4 class="subheading">javascript . react js</h4>
-                        <h2 class="heading"><a href="https://reactjs-todolist-webapp.herokuapp.com/" target="_blank">Lista de tareas</a></h2>
-                        <p>Aplicación web desarrollada en ReactJS para crear listas de tareas pendientes. Es posible agregar y borrar múltiples
-                        items.</p>
-                        <p>Actualmente trabajando en nuevas funcionalidades: autenticación con cuentas de Google, para que cada usuario acceda a su
-                        propia lista, y base de datos en la nube, para que la información esté siempre disponible.</p>
-                        <div><a href="https://github.com/natilavega/ReactJS-todolist" target="_blank">Ver código en <i class="fab fa-github"></i></a></div>
-                    </div>
-                </div>
-
-                <div class="block-p my-5 d-md-flex content-animate">
-                    <a href="http://fcc-product-page.surge.sh/" target="_blank"
-                        class="image order-2 d-flex justify-content-center align-items-center rounded"
-                        style="background-image: url('img/work-1.jpg'); background-position: left center;"></a>
-                    <div class="text order-1">
-                        <h4 class="subheading">html5 . css3 . javascript</h4>
-                        <h2 class="heading"><a href="http://fcc-product-page.surge.sh/" target="_blank">freeCodeCamp</a></h2>
-                        <p>Página de producto para plataforma de cursos online. Propone un nuevo diseño para la web de freeCodeCamp, cumpliendo los
-                        requisitos del <span>Responsive Web Design Certificate</span>. Incluye un menú desplegable, encabezado, características, lista de
-                        cursos y formulario de contacto. El diseño es mobile first y se adapta a cualquier tamaño de pantalla.</p>
-                        <div><a href="https://github.com/natilavega/freeCodeCamp-product-page" target="_blank">Ver código en <i
-                                    class="fab fa-github"></i></a></div>
-                    </div>
-                </div>
-
-                <div class="block-p d-md-flex content-animate">
-                    <a href="http://coworkingspace.surge.sh/" target="_blank" class="image d-flex justify-content-center align-items-center rounded"
-                        style="background-image: url('img/work-3.jpg'); background-position: 30% 50%;"></a>
-                    <div class="text">
-                        <h4 class="subheading">html5 . css3 . bootstrap . javascript</h4>
-                        <h2 class="heading"><a href="http://coworkingspace.surge.sh/" target="_blank">Página de inicio</a></h2>
-                        <p>Modelo de encabezado para web de empresa que administra espacios de trabajo compartido. La página incluye un menú
-                        desplegable y utiliza Bootstrap para crear una galería de imágenes dinámica. La estructura se adapta utilizando el
-                        sistema de grillas de dicho framework y el diseño varía automáticamente de acuerdo al tamaño de pantalla.</p>
-                        <div><a href="https://github.com/natilavega/landing-page-coworkingspace" target="_blank">Ver código en <i class="fab fa-github"></i></a></div>
-                    </div>
-                </div>
-
-                <div class="block-p d-md-flex content-animate">
-                    <a href="http://inicio-sesion.surge.sh/" target="_blank" class="image order-2 d-flex justify-content-center align-items-center rounded"
-                        style="background-image: url('img/work-2.jpg'); "></a>
-                    <div class="text order-1">
-                        <h4 class="subheading">html5 . css3 . javascript . jquery</h4>
-                        <h2 class="heading"><a href="http://inicio-sesion.surge.sh/" target="_blank">Inicio de sesión</a></h2>
-                        <p>Formulario dinámico de inicio de sesión, creación de cuenta y recuperación de contraseña. El código desarrollado con
-                        jQuery aplica funcionalidad y permite que los formularios se muestren/oculten de acuerdo a la opción seleccionada por el
-                        usuario. Este proyecto fue realizado dentro del <span>Microsoft Professional Program: Front End Development.</span></p>
-                        <div><a href="https://github.com/natilavega/login-page" target="_blank">Ver código en <i class="fab fa-github"></i></a></div>
-                    </div>
-                </div>
-            </div>
-        </div>
+    <!-- Tools -->
+    <section class="tools">
+      <h2 class="section-title">
+        Languages and Tools.
+      </h2>
+      <div class="section-content">
+        <ul class="tools-items_container">
+          <li class="tools-item"><img src="assets/icons/html.svg" alt="html"></li>
+          <li class="tools-item"><img src="assets/icons/css.svg" alt="css"></li>
+          <li class="tools-item"><img src="assets/icons/bootstrap.svg" alt="bootstrap"></li>
+          <li class="tools-item"><img src="assets/icons/javascript.svg" alt="javascript"></li>
+          <li class="tools-item"><img src="assets/icons/react.svg" alt="react"></li>
+          <li class="tools-item"><img src="assets/icons/firebase.svg" alt="firebase"></li>
+          <li class="tools-item"><img src="assets/icons/git.svg" alt="git"></li>
+          <li class="tools-item"><img src="assets/icons/figma.svg" alt="figma"></li>
+        </ul>
+      </div>
     </section>
 
-    <!-- Contact Section -->
-    <section class="my-5 py-5">
-        <div class="container">
-            <div class="row justify-content-center mb-5 pb-3">
-                <div class="col-md-7 text-center heading-section content-animate">
-                    <h2>Contacto</h2>
-                    <span>Propuestas, comentarios, sugerencias</span>
-                </div>
+    <!-- React projects -->
+    <section class="react">
+      <h2 class="section-title">
+        Built in React.
+      </h2>
+      <div class="section-content">
+
+        <!-- minWeather -->
+        <div id="minweather" class="project project-row">
+          <!-- Gallery -->
+          <div class="project-gallery">
+            <!-- Full-width images -->
+            <div class="gallery-slide-1">
+              <img src="assets/images/minWeather (1).png" style="width: 100%" />
+            </div>
+            <div class="gallery-slide-1">
+              <img src="assets/images//minWeather (2).png" style="width: 100%" />
+            </div>
+            <div class="gallery-slide-1">
+              <img src="assets/images//minWeather (3).png" style="width: 100%" />
             </div>
 
-            <div class="row justify-content-center">
-                <div class="col-md-4 m-4 block contact-details content-animate">
-                    <h6 class="mb-4 text-uppercase">Email</h6>
-                    <p class="my-auto">nati.lavega@gmail.com</p>
-                </div>
-                <div class="col-md-4 m-4 block contact-details content-animate">
-                    <h6 class="mb-4 text-uppercase">Ubicación</h6>
-                    <p class="my-auto">San Fernando <br>Buenos Aires, ARG</p>
-                </div>
+            <!-- Thumbnail images -->
+            <div class="row">
+              <div class="column">
+                <img
+                  class="demo-1 cursor"
+                  src="assets/images/minWeather (1).png"
+                  style="width: 100%"
+                  onclick="currentSlide('1', 1)"
+                  alt="minWeather Home Page"
+                />
+              </div>
+              <div class="column">
+                <img
+                  class="demo-1 cursor"
+                  src="assets/images//minWeather (2).png"
+                  style="width: 100%"
+                  onclick="currentSlide('1', 2)"
+                  alt="minWeather Location Page"
+                />
+              </div>
+              <div class="column">
+                <img
+                  class="demo-1 cursor"
+                  src="assets/images//minWeather (3).png"
+                  style="width: 100%"
+                  onclick="currentSlide('1', 3)"
+                  alt="minWeather Settings Page"
+                />
+              </div>
             </div>
+          </div>
 
-            <div class="mt-5 text-center content-animate">
-                <a href="https://github.com/natilavega" target="_blanck"><i class="fab fa-github"></i></a>
-                <a href="https://codepen.io/natilavega/" target="_blanck"><i class="fab fa-codepen"></i></a>
-                <a href="https://www.freecodecamp.org/natilavega" target="_blanck"><i class="fab fa-free-code-camp"></i></a>
-            </div>
+          <div class="project-content">
+            <h6 class="project-subheading">React . API</h6>
+            <h5 class="project-heading">minWEATHER</h5>
+            <p><b>Minimalist Weather App.</b></p>
+            <p>
+              <b>minWeather</b> has a simple but effective interface. Only the
+              essential current weather details. The custom weather icons change
+              day and night.
+            </p>
+            <p>
+              Users can allow geolocation to a faster entrance or enter the city
+              manually. In the settings section, they can choose language and
+              change measurement units.
+            </p>
+            <p>
+              <b>WeatherAPI</b> provides access to weather and geo data via a
+              JSON/XML restful API.
+            </p>
+            <ul class="project-links">
+              <li class="live-demo">
+                <a href="https://minweather.surge.sh/" target="_blank"
+                  >Live demo</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://github.com/natilavega/react-weather-app"
+                  target="_blank"
+                  >GitHub Repository</a
+                >
+              </li>
+            </ul>
+          </div>
         </div>
+
+        <!-- toodo -->
+        <div id="toodo" class="project project-row">
+          <!-- Gallery -->
+          <div class="project-gallery">
+            <!-- Full-width images -->
+            <div class="gallery-slide-2">
+              <img src="assets/images/toodo (1).png" style="width: 100%" />
+            </div>
+            <div class="gallery-slide-2">
+              <img src="assets/images/toodo (2).png" style="width: 100%" />
+            </div>
+            <div class="gallery-slide-2">
+              <img src="assets/images//toodo (3).png" style="width: 100%" />
+            </div>
+
+            <!-- Thumbnail images -->
+            <div class="row">
+              <div class="column">
+                <img
+                  class="demo-2 cursor"
+                  src="assets/images/toodo (1).png"
+                  style="width: 100%"
+                  onclick="currentSlide('2', 1)"
+                  alt="toodo empty"
+                />
+              </div>
+              <div class="column">
+                <img
+                  class="demo-2 cursor"
+                  src="assets/images//toodo (2).png"
+                  style="width: 100%"
+                  onclick="currentSlide('2', 2)"
+                  alt="toodo list"
+                />
+              </div>
+              <div class="column">
+                <img
+                  class="demo-2 cursor"
+                  src="assets/images//toodo (3).png"
+                  style="width: 100%"
+                  onclick="currentSlide('2', 3)"
+                  alt="toodo login"
+                />
+              </div>
+            </div>
+          </div>
+
+          <div class="project-content">
+            <h6 class="project-subheading">React . Firebase</h6>
+            <h5 class="project-heading">TOODO</h5>
+            <p><b>Not so classic CRUD app.</b></p>
+            <p>
+              <b>toodo</b> is a to-do list web application. It is possible to add and delete items from the list with a few clicks.
+            </p>
+            <p>
+              To enter, users can create an account with email and password or log in with their Google account. This allows each user to work with their own database and have the information always available.
+            </p>
+            <p>
+              The app uses <b>Firebase</b>'s real-time database and authentication service.
+            </p>
+            <ul class="project-links">
+              <li class="live-demo">
+                <a href="https://toodo.surge.sh/" target="_blank"
+                  >Live demo</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://github.com/natilavega/React-Firebase-todo-app"
+                  target="_blank"
+                  >GitHub Repository</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- Footer -->
     <footer>
-        <div class="p-3">Diseñado & Desarrollado por Natalia Lavega <i class="fas fa-star"></i></div>
+      <p>
+        Design & Developed by Nati Lavega <br />
+        <a href="https://www.google.com/maps/place/San+Fernando,+Buenos+Aires+Province/@-34.4504698,-58.6016189,13z/data=!3m1!4b1!4m5!3m4!1s0x95bca568119a2861:0x27933dc457c12b90!8m2!3d-34.4430618!4d-58.5579643" target="_blank"><i class="feather-12" data-feather="map"></i></a>
+        2022
+      </p>
     </footer>
 
-
-    <!-- Script -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    <script src="js/fontawesome.min.js"></script>
-    <script src="js/jquery.waypoints.min.js"></script>
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
     <script src="js/main.js"></script>
 </body>
 </html>
