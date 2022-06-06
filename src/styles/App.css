@@ -1,0 +1,23 @@
+.custom-font {
+  font-family: 'PT Mono', monospace;
+}
+
+.custom-font-gradient {
+  background: -webkit-linear-gradient(-45deg, #0a84ff, #5e5ce6 40%, #bf5af2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.custom-animation {
+  animation: blink-caret 1s step-end infinite;
+}
+
+@keyframes blink-caret {
+  from,
+  to {
+    color: transparent;
+  }
+  50% {
+    color: #bf5af2;
+  }
+}
