@@ -1,17 +1,10 @@
-import PropTypes from 'prop-types';
 import { FiMap } from 'react-icons/fi';
 
-const NavFooter = ({ center }) => {
+const NavFooter = () => {
   const year = new Date().getFullYear();
 
   return (
-    <div
-      className={
-        center
-          ? 'flex w-full justify-center items-center'
-          : 'flex w-full items-center'
-      }
-    >
+    <div className={'flex w-full items-center justify-center lg:justify-start'}>
       <div>
         <a
           href='https://www.google.com/maps/place/San+Fernando,+Buenos+Aires+Province/'
@@ -23,10 +16,6 @@ const NavFooter = ({ center }) => {
       <div className='text-white-faded text-[10px] ml-2'>{year}</div>
     </div>
   );
-};
-
-NavFooter.propTypes = {
-  center: PropTypes.bool,
 };
 
 export default NavFooter;

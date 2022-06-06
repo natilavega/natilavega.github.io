@@ -1,9 +1,8 @@
 import { useLocation } from 'react-router-dom';
-import * as ROUTES from '../constants/routes';
-import PropTypes from 'prop-types';
+import * as ROUTES from '../../constants/routes';
 import NavRoute from './navRoute';
 
-const NavRoutes = ({ center }) => {
+const NavRoutes = () => {
   const { pathname } = useLocation();
 
   const routes = [ROUTES.HOME, ROUTES.ABOUT, ROUTES.PROJECTS];
@@ -13,16 +12,12 @@ const NavRoutes = ({ center }) => {
   };
 
   return (
-    <ul className={center ? 'mb-[60px] text-center' : 'mb-[60px]'}>
+    <ul className={'mb-[60px] text-center lg:text-left'}>
       {routes.map((route, index) => (
         <NavRoute key={index} isCurrentRoute={isCurrentRoute} route={route} />
       ))}
     </ul>
   );
-};
-
-NavRoutes.propTypes = {
-  center: PropTypes.bool,
 };
 
 export default NavRoutes;

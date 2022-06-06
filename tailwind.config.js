@@ -1,12 +1,6 @@
 module.exports = {
   content: ['./src/**/*.{js,jsx,ts,tsx}'],
   theme: {
-    extend: {
-      height: {
-        '1/8': '12.5%',
-        '7/8': '87.5%',
-      },
-    },
     colors: {
       white: {
         light: '#fdfdfb',
