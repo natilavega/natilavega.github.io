@@ -13,7 +13,7 @@ const NavRoute = ({ isCurrentRoute, route }) => {
 
   return (
     <li
-      className='text-white-faded text-xl lg:text-base my-6 cursor-pointer'
+      className='text-2xl lg:text-base my-6 cursor-pointer'
       onClick={() => navigate(route)}
     >
       {isCurrentRoute(route) ? (
