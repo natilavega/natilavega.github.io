@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/natilavega/natilavega.github.io/static/css/main.f5c11416.css",
-    "main.js": "/natilavega/natilavega.github.io/static/js/main.61d27f2f.js",
-    "static/js/585.8fddbd20.chunk.js": "/natilavega/natilavega.github.io/static/js/585.8fddbd20.chunk.js",
-    "static/js/196.eac0e51b.chunk.js": "/natilavega/natilavega.github.io/static/js/196.eac0e51b.chunk.js",
-    "static/js/56.3c5295bb.chunk.js": "/natilavega/natilavega.github.io/static/js/56.3c5295bb.chunk.js",
-    "static/js/36.27529b4a.chunk.js": "/natilavega/natilavega.github.io/static/js/36.27529b4a.chunk.js",
-    "static/js/853.8ee1dd96.chunk.js": "/natilavega/natilavega.github.io/static/js/853.8ee1dd96.chunk.js",
-    "index.html": "/natilavega/natilavega.github.io/index.html",
-    "main.f5c11416.css.map": "/natilavega/natilavega.github.io/static/css/main.f5c11416.css.map",
-    "main.61d27f2f.js.map": "/natilavega/natilavega.github.io/static/js/main.61d27f2f.js.map",
-    "585.8fddbd20.chunk.js.map": "/natilavega/natilavega.github.io/static/js/585.8fddbd20.chunk.js.map",
-    "196.eac0e51b.chunk.js.map": "/natilavega/natilavega.github.io/static/js/196.eac0e51b.chunk.js.map",
-    "56.3c5295bb.chunk.js.map": "/natilavega/natilavega.github.io/static/js/56.3c5295bb.chunk.js.map",
-    "36.27529b4a.chunk.js.map": "/natilavega/natilavega.github.io/static/js/36.27529b4a.chunk.js.map",
-    "853.8ee1dd96.chunk.js.map": "/natilavega/natilavega.github.io/static/js/853.8ee1dd96.chunk.js.map"
+    "main.css": "/natilavega.github.io/static/css/main.f5c11416.css",
+    "main.js": "/natilavega.github.io/static/js/main.a5a8b5ab.js",
+    "static/js/585.8fddbd20.chunk.js": "/natilavega.github.io/static/js/585.8fddbd20.chunk.js",
+    "static/js/196.eac0e51b.chunk.js": "/natilavega.github.io/static/js/196.eac0e51b.chunk.js",
+    "static/js/56.3c5295bb.chunk.js": "/natilavega.github.io/static/js/56.3c5295bb.chunk.js",
+    "static/js/36.27529b4a.chunk.js": "/natilavega.github.io/static/js/36.27529b4a.chunk.js",
+    "static/js/853.8ee1dd96.chunk.js": "/natilavega.github.io/static/js/853.8ee1dd96.chunk.js",
+    "index.html": "/natilavega.github.io/index.html",
+    "main.f5c11416.css.map": "/natilavega.github.io/static/css/main.f5c11416.css.map",
+    "main.a5a8b5ab.js.map": "/natilavega.github.io/static/js/main.a5a8b5ab.js.map",
+    "585.8fddbd20.chunk.js.map": "/natilavega.github.io/static/js/585.8fddbd20.chunk.js.map",
+    "196.eac0e51b.chunk.js.map": "/natilavega.github.io/static/js/196.eac0e51b.chunk.js.map",
+    "56.3c5295bb.chunk.js.map": "/natilavega.github.io/static/js/56.3c5295bb.chunk.js.map",
+    "36.27529b4a.chunk.js.map": "/natilavega.github.io/static/js/36.27529b4a.chunk.js.map",
+    "853.8ee1dd96.chunk.js.map": "/natilavega.github.io/static/js/853.8ee1dd96.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f5c11416.css",
-    "static/js/main.61d27f2f.js"
+    "static/js/main.a5a8b5ab.js"
   ]
 }
