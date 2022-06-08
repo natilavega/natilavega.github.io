@@ -9,17 +9,29 @@ const SocialLinks = ({ col }) => {
       }
     >
       <li className={col ? 'my-4' : 'mx-4'}>
-        <a href='https://www.linkedin.com/in/natilavega/' target='_blank'>
+        <a
+          href='https://www.linkedin.com/in/natilavega/'
+          target='_blank'
+          rel='noreferrer'
+        >
           <FiLinkedin />
         </a>
       </li>
       <li className={col ? 'my-4' : 'mx-4'}>
-        <a href='https://github.com/natilavega' target='_blank'>
+        <a
+          href='https://github.com/natilavega'
+          target='_blank'
+          rel='noreferrer'
+        >
           <FiGithub />
         </a>
       </li>
       <li className={col ? 'my-4' : 'mx-4'}>
-        <a href='https://instagram.com/natilavega_' target='_blank'>
+        <a
+          href='https://instagram.com/natilavega_'
+          target='_blank'
+          rel='noreferrer'
+        >
           <FiInstagram />
         </a>
       </li>

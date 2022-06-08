@@ -3,7 +3,7 @@ import * as ROUTES from '../../constants/routes';
 
 const NotFound = () => {
   return (
-    <div className='min-h-[90%] flex flex-col justify-center p-5'>
+    <section className='min-h-[90%] flex flex-col justify-center p-5'>
       <h1 className='text-white-light text-6xl lg:text-[6rem] leading-[1.1] mb-5 lg:w-3/4'>
         Ooops!
       </h1>
@@ -15,7 +15,7 @@ const NotFound = () => {
           <span className='cursor-pointer text-blue'>Home</span>.
         </Link>
       </p>
-    </div>
+    </section>
   );
 };
 

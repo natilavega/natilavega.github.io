@@ -1,6 +1,6 @@
 const About = () => {
   return (
-    <div className='min-h-[90%] px-5 py-10 lg:py-20'>
+    <section className='min-h-[90%] px-5 py-10 lg:py-20'>
       <h1 className='text-4xl'>About_</h1>
       <div className='my-20 lg:w-3/4'>
         <p className='mb-5'>Hi, I am Natalia.</p>
@@ -33,7 +33,7 @@ const About = () => {
           <b>Let's chat and build something great together!</b>
         </p>
       </div>
-    </div>
+    </section>
   );
 };
 
