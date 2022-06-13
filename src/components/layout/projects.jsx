@@ -1,5 +1,8 @@
 import { useEffect } from 'react';
 import { FiArrowRight } from 'react-icons/fi';
+import screenshot1 from '../../assets/thegram.png';
+import screenshot2 from '../../assets/minweather.png';
+import screenshot3 from '../../assets/toodo.png';
 
 const Projects = () => {
   useEffect(() => {
@@ -12,7 +15,7 @@ const Projects = () => {
 
       <div className='flex flex-col lg:flex-row my-20'>
         <div className='lg:w-2/5 mb-5 lg:mb-0 lg:mr-10'>
-          <img src='/images/thegram.png' alt='minWeather app screenshot' />
+          <img src={screenshot1} alt='Instagram clone screenshot' />
         </div>
         <div className='lg:w-2/5 mb-10'>
           <span className='text-xs'>React Js — Firebase</span>
@@ -57,7 +60,7 @@ const Projects = () => {
 
       <div className='flex flex-col lg:flex-row my-20'>
         <div className='lg:w-2/5 mb-5 lg:mb-0 lg:mr-10'>
-          <img src='/images/minweather.png' alt='minWeather app screenshot' />
+          <img src={screenshot2} alt='minWeather app screenshot' />
         </div>
         <div className='lg:w-2/5 mb-10'>
           <span className='text-xs'>React Js — API</span>
@@ -101,7 +104,7 @@ const Projects = () => {
 
       <div className='flex flex-col lg:flex-row my-20'>
         <div className='lg:w-2/5 mb-5 lg:mb-0 lg:mr-10'>
-          <img src='/images/toodo.png' alt='toodo app screenshot' />
+          <img src={screenshot3} alt='toodo app screenshot' />
         </div>
         <div className='lg:w-2/5 mb-10'>
           <span className='text-xs'>React Js — Firebase</span>
